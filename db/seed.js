@@ -11,6 +11,5 @@ module.exports = async({ memesToCreate = 5 } = {}) => {
     top: chance.pickone(top),
     image: chance.pickone(image),
     bottom: chance.pickone(bottom)
-
   })));
 };
